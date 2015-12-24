@@ -49,8 +49,8 @@ main:
         ;clrwdt
 main_input_check:
         btfss   INPUT_A
-        goto    main_input_check_b1             ;INPUT_A = 0
-        goto    main_input_check_b2             ;INPUT_A = 1
+        goto    main_input_check_b1             ;input a = 0
+        goto    main_input_check_b2             ;input b = 1
 main_input_check_b1
         btfss   INPUT_B
         goto    main_led_gg                ;input b = 0,a = 0
