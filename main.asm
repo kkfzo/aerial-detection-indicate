@@ -67,7 +67,7 @@ main_led_rr                    ;ledºì¹â
         bsf     LED_RR
         bcf     LED_GG
         goto    main
-main_led_yy                     ;led»ìÉ« 
+main_led_yy                    ;led»ìÉ« 
         bsf     LED_RR
         bsf     LED_GG 
         goto    main
