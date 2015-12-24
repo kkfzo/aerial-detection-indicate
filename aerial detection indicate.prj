@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tenx>
+	<Project>
+		<Version>Ver C 1.0</Version>
+		<Compiler>ASM</Compiler>
+		<ProjectType>prj</ProjectType>
+		<FileList>
+			<CFiles>
+			</CFiles>
+			<HeaderFiles>
+			</HeaderFiles>
+			<AsmFiles>
+				<File>main.asm</File><File>system_init.asm</File></AsmFiles>
+			<IncludeFiles>
+				<File>system.inc</File><File>TM57PE12.inc</File></IncludeFiles>
+			<LibFiles>
+			</LibFiles>
+			<TxtFiles>
+			</TxtFiles>
+			<LcdFiles>
+			</LcdFiles>
+			<OtherFiles>
+			</OtherFiles>
+		</FileList>
+		<FilePath>
+			<HeaderPath>
+				<Path>C:\Program Files (x86)\tenx\TICE99IDE Version V1.0.5Build45</Path></HeaderPath>
+			<LibPath>
+				<Path>C:\Program Files (x86)\tenx\TICE99IDE Version V1.0.5Build45</Path></LibPath>
+		</FilePath>
+		<Option>
+			<ConfigValue>3329</ConfigValue>
+			<ChipType>TM57PE12</ChipType>
+			<ChipCategory>TM57</ChipCategory>
+			<ChipSize>1024</ChipSize>
+			<DebugWithSourceCode>1</DebugWithSourceCode>
+			<MainFile>NULL</MainFile>
+			<MainBoardSupplyVoltage>5V</MainBoardSupplyVoltage>
+			<StkPtrSize>0</StkPtrSize>
+			<StackWarnMsg>1</StackWarnMsg>
+			<AliasChip>
+			</AliasChip>
+		</Option>
+		<OpenedFile>
+			<File>main.asm</File><File>system.inc</File><File>system_init.asm</File></OpenedFile>
+		<Breakpoint>
+		</Breakpoint>
+		<EQUWatchList>
+			<FPlane1>
+				<Name>indf</Name><Name>tmr0</Name><Name>pc</Name><Name>status</Name><Name>gbit1</Name><Name>to</Name><Name>pd</Name><Name>z</Name><Name>dc</Name><Name>c</Name><Name>fsr</Name><Name>gbit2</Name><Name>pad</Name><Name>pbd</Name><Name>inte</Name><Name>pwm0ie</Name><Name>tm2ie</Name><Name>tm0ie</Name><Name>wktie</Name><Name>xint2e</Name><Name>xint1e</Name><Name>xint0e</Name><Name>intf</Name><Name>pwm0i</Name><Name>tm2i</Name><Name>tm0i</Name><Name>wkti</Name><Name>xint2</Name><Name>xint1</Name><Name>xint0</Name><Name>pwm0duty</Name><Name>ctrlsys</Name><Name>selsub</Name><Name>stpfck</Name><Name>sube</Name><Name>clrtm2</Name><Name>stoptm0</Name><Name>clrpwm0</Name><Name>tm0ctrl</Name><Name>t0iedgeR</Name><Name>t0iedgeS</Name><Name>selt0iR</Name><Name>selt0iS</Name><Name>tm0pscR</Name><Name>pwrdown</Name><Name>clrwdt</Name><Name>pae</Name><Name>pbe</Name><Name>papu</Name><Name>pbpu</Name><Name>int0wkt</Name><Name>int0edgeR</Name><Name>int0edgeS</Name><Name>clk2pinR</Name><Name>clk2pinS</Name><Name>wktpscR</Name><Name>pwm0period</Name><Name>pwm0ctrl</Name><Name>pwm0eR</Name><Name>pwm0eS</Name><Name>pwm0divR</Name><Name>pawkup</Name><Name>tm2subtyp</Name><Name>tm2clkR</Name><Name>tm2clkS</Name><Name>tm2divR</Name><Name>subtypR</Name><Name>pbwkup</Name><Name>w</Name><Name>f</Name></FPlane1>
+			<FPlane2>
+			</FPlane2>
+			<RPlane>
+			</RPlane>
+		</EQUWatchList>
+		<BookmarkList>
+			<Node>1. --</Node><Node>2. --</Node><Node>3. --</Node><Node>4. --</Node><Node>5. --</Node><Node>6. --</Node><Node>7. --</Node><Node>8. --</Node><Node>9. --</Node><Node>10. --</Node></BookmarkList>
+		<CWatchVarList>
+		</CWatchVarList>
+		<LCDVesion>v20</LCDVesion>
+		<SoftwareSimulate>0</SoftwareSimulate>
+		<IRCFSelection>
+			<Value>0</Value>
+			<Name></Name>
+		</IRCFSelection>
+	</Project>
+</tenx>
